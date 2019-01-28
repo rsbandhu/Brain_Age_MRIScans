@@ -1,0 +1,20 @@
+{
+    "train_data_path": "/home/hackathon/skullstripped_adni/slices/training_aug",
+	"test_data_path": "/home/hackathon/skullstripped_adni/slices/testing_aug",
+	"train_label_file": "/home/hackathon/skullstripped_adni/slices/training_slices_dataframe_aug.csv",
+    "test_label_file": "/home/hackathon/skullstripped_adni/slices/testing_slices_dataframe_aug.csv",
+	"channels":3,
+	"im_size_X":224,
+	"im_size_Y":224,
+	"features_in":2208,
+	"learning_rate": 1e-4,
+    "batch_size": 32,
+    "class_count": 1,
+    "num_epochs": 1,
+    "save_summary_steps": 200,
+    "threshold": 0.0,
+    "wts":[0.2534,  0.3361,  0.2926,  0.3261,  0.3186,  0.3063,  0.3467,
+         0.3018,  0.6040,  0.6299,  0.7196,  0.3427,  0.3670,  0.3815,
+         0.3439,  0.7876,  0.3823,  0.4484,  0.3524,  0.3284,  0.4658,
+         0.2911,  0.3586,  0.2999,  0.4153,  0.2660,  0.4139,  1.0000]
+}
